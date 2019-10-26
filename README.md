@@ -1,3 +1,3 @@
 The backend of the CryptoPrices web app.
 
-See also [cryptoprices-server](../cryptoprices-client)
+See also [cryptoprices-server](/anthonytietjen/cryptoprices-client)
