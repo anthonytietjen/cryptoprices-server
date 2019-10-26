@@ -4,16 +4,14 @@
   "description": "",
   "main": "handler.js",
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "0.19.0"
   },
   "devDependencies": {
-    "pm2": "^4.1.2",
-    "serverless-offline": "^6.0.0-alpha.41"
+    "serverless-offline": "5.12.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/pm2/bin/pm2 start \"serverless offline\" --watch",
-    "stop": "node_modules/pm2/bin/pm2 stop \"serverless offline\""
+    "start": "serverless offline"
   },
   "keywords": [],
   "author": "",
