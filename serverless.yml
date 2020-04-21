@@ -67,6 +67,9 @@ functions:
       - http:
           path: v1/prices
           method: get
+      - http:
+          path: v1/savePricePoints
+          method: post
 #    events:
 #      - http:
 #          path: users/create
