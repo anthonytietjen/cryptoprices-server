@@ -70,6 +70,7 @@ functions:
       - http:
           path: v1/savePricePoints
           method: post
+          cors: true
 #    events:
 #      - http:
 #          path: users/create
